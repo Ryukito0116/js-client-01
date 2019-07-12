@@ -2,22 +2,19 @@
 <html lang="ja" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>サンプルアプリケーション</title>
+    <title>性格判定マシン</title>
+    <link rel="stylesheet" href="https://unpkg.com/resss/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>置換マシン</h1>
-    <div>
-        <!-- textarea -->
-        <textarea cols="60" rows="5" id="tarea">吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。
-        </textarea>
+    <h1>Webエンジニアコースの生徒の紹介</h1>
+    <div id="main">
+        <p><div class="how1">〇〇</div>で<div class="how2">〇〇</div>な<div class="who">〇〇</div>さん</p>
     </div>
 
-    <!-- input 2つ -->
-    <input type="text" id="input1">
-    <input type="text" id="input2">
     
     <!-- button -->
-    <button id="btn">置換</button>
+    <button id="btn">ランダムに判定する</button>
 
     <!-- p -->
     <p id="result">結果表示</p>
